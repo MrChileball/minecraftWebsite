@@ -191,6 +191,16 @@ body {
     flex: 1; /* Ocupa el espacio disponible */
     /* Estilos adicionales para la sección de información */
   }
+
+  .info-reverse {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    font-size: 2.35vh;
+    padding-left: 10px;
+    flex: 1; /* Ocupa el espacio disponible */
+    /* Estilos adicionales para la sección de información */
+  }
   
 
 
@@ -403,4 +413,8 @@ body {
     height: 100%;
     object-fit: cover; /* Ajusta la imagen al tamaño del contenedor */
     display: none; /* Inicialmente, oculta todas las imágenes */
+  }
+
+  .trailer-container{
+    
   }
