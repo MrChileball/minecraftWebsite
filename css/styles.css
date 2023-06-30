@@ -414,7 +414,7 @@ body {
     display: none; /* Inicialmente, oculta todas las imágenes */
   }
 
-  .container {
+  .container-iframe {
     max-width: 800px; /* Establece el tamaño máximo del contenedor */
     margin: 0 auto; /* Centra el contenedor horizontalmente en la página */
   }
