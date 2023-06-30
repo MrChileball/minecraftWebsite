@@ -80,18 +80,6 @@ body {
     box-shadow: 0px 4px 6px rgba(139, 128, 113, 0.2);
 }
 
-
-.button-header{
-    background-color: var(--bg-dark-accent);
-    transition: background-color 0.45s, border-color 0.45s;
-
-
-}
-.button-header:hover{
-    background-color: #33865d;
-    border-color: #1b5538;
-}
-
 .navbar {
   display: flex;
   justify-content: center;
@@ -140,53 +128,12 @@ body {
   text-decoration: none;
 }
 
-
-
-  .button {
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: var(--bg-dark-accent);
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    transition: background-color 0.45s, border-color 0.45s;
-  }
-  
-  .button:hover {
-    background-color: #33865d;
-    border-color: #1b5538;
-  }
-  
-  .button:active {
-    background-color: #0c1823;
-    box-shadow: none;
-    transform: translateY(2px);
-  }
-
-  
-
-  .background-header{
-    background-image: url("https://media.tenor.com/lPsMNpUunr4AAAAd/minecraft-aesthetic-background.gif");
-    background-size: cover;
-    padding:30px;
-    padding-bottom:25vh;
-
-
-  }
-
-
-
-
-  
-
-
-
-
-
-
+.background-header{
+  background-image: url("https://media.tenor.com/lPsMNpUunr4AAAAd/minecraft-aesthetic-background.gif");
+  background-size: cover;
+  padding:30px;
+  padding-bottom:25vh;
+}
 
 
 
@@ -200,16 +147,6 @@ body {
     gap: 5px; /* Ajusta el valor del espacio de separación según tus necesidades */
     flex: 1;
   }
-
-  .info {
-    flex-direction: column;
-    display: flex;
-    text-align: center;
-    font-size: 2.35vh;
-    padding-left: 10px;
-    flex: 1; /* Ocupa el espacio disponible */
-    /* Estilos adicionales para la sección de información */
-  }
   @media (max-width: 1600px){
     .container-flex-info {
       flex-direction: column;
@@ -222,6 +159,39 @@ body {
     }
 
   }
+
+/*Variante de container-flex-info con TEXTO A LA IZQUIERDA*/
+
+.container-flex-info-reverse{
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 5px; /* Ajusta el valor del espacio de separación según tus necesidades */
+  flex: 1;
+}
+@media (max-width: 1600px){
+  .container-flex-info-reverse {
+    flex-direction: column-reverse;
+    display: flex;
+    text-align: center;
+    font-size: 2.35vh;
+    padding-left: 10px;
+    flex: 1; /* Ocupa el espacio disponible */
+    /* Estilos adicionales para la sección de información */
+  }
+
+}
+
+
+  .info {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    font-size: 2.35vh;
+    padding-left: 10px;
+    flex: 1; /* Ocupa el espacio disponible */
+    /* Estilos adicionales para la sección de información */
+  }
+  
 
 
   .text-container {

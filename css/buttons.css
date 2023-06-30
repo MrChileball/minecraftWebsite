@@ -1,0 +1,58 @@
+:root {
+    --bg-dark: #1B1B1B;
+    --bg-mid: #3D3F43;
+    --bg-light: #ffffff;
+    --bg-dark-accent: #5B5463;
+    --bg-mid-accent: #D1C6CF;
+    --bg-light-accent: #f3f0f3;
+    --accent: #EE3F9E;
+}
+
+
+/*BOTON UTILIZADO PARA LOS CONTAINERS CON INFORMACIÓN*/
+
+
+/*BOTONES PARA ID description-1*/
+.button-flex {
+    text-align: center;
+    font-size: 2.35vh;
+    
+    /* Estilos adicionales para la sección de información */
+  }
+
+/*BOTÓN PARA HEADER*/
+.button-header{
+    background-color: var(--bg-dark-accent);
+    transition: background-color 0.45s, border-color 0.45s;
+
+
+}
+.button-header:hover{
+    background-color: #33865d;
+    border-color: #1b5538;
+}
+
+/*BOTÓN GENÉRICO PARA WEB*/
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: var(--bg-dark-accent);
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.45s, border-color 0.45s;
+  }
+/* al pasar el cursor*/
+  .button:hover {
+    background-color: #33865d;
+    border-color: #1b5538;
+  }
+/*al clickear*/
+  .button:active {
+    background-color: #0c1823;
+    box-shadow: none;
+    transform: translateY(2px);
+  }
