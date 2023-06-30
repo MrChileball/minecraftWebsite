@@ -425,7 +425,6 @@ body {
   
   .responsive-iframe {
     position: relative;
-    padding-bottom: 75%; /* Ajusta el valor según tus necesidades */
     height: 0;
     overflow: hidden;
   }
