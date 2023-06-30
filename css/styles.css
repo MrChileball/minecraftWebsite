@@ -414,14 +414,14 @@ body {
     display: none; /* Inicialmente, oculta todas las imágenes */
   }
 
-  .container-iframe {
+  .container-iframe{
     max-width: 800px; /* Establece el tamaño máximo del contenedor */
     margin: 0 auto; /* Centra el contenedor horizontalmente en la página */
   }
   
   .responsive-iframe {
     position: relative;
-    padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
+    padding-bottom: 75%; /* Ajusta el valor según tus necesidades */
     height: 0;
     overflow: hidden;
   }
