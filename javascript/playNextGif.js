@@ -1,4 +1,4 @@
-window.addEventListener('DOMContentLoaded', function() {
+/*window.addEventListener('DOMContentLoaded', function() {
     var gifs = document.querySelectorAll('#gif-container img');
     var currentIndex = 0;
 
@@ -10,3 +10,4 @@ window.addEventListener('DOMContentLoaded', function() {
 
     setInterval(playNextGif, 2000); // Cambia de GIF cada 2 segundos (ajusta el tiempo según tus necesidades)
   });
+  */
