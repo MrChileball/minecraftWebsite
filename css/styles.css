@@ -162,13 +162,13 @@ body {
 
 /*Variante de container-flex-info con TEXTO A LA IZQUIERDA*/
 
-.container-flex-info-reverse{
+.container-flex-info-reverse {
   display: flex;
   flex-direction: row-reverse;
   gap: 5px; /* Ajusta el valor del espacio de separación según tus necesidades */
   flex: 1;
 }
-@media (max-width: 1600px){
+@media (max-width: 1600px) {
   .container-flex-info-reverse {
     flex-direction: column-reverse;
     display: flex;
@@ -178,8 +178,7 @@ body {
     flex: 1; /* Ocupa el espacio disponible */
     /* Estilos adicionales para la sección de información */
   }
-
-}
+}  
 
 
   .info {
@@ -418,7 +417,7 @@ body {
 
 
   #iframe-video {
-    width: 100%;
+    width: auto;
     max-width: 800px;
     height: auto;
     
@@ -426,5 +425,6 @@ body {
   @media (max-width: 480px) {
     #mi-iframe {
       max-width: 100%;
+      height: auto;
     }
   }
