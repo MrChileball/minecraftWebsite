@@ -415,6 +415,16 @@ body {
     display: none; /* Inicialmente, oculta todas las imágenes */
   }
 
-  .trailer-container{
+
+
+  #iframe-video {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
     
+  }
+  @media (max-width: 480px) {
+    #mi-iframe {
+      max-width: 100%;
+    }
   }
