@@ -417,11 +417,11 @@ body {
 
   #iframe {
     width: 100%;
-    max-width: 800px;
-    height: 0;
-    padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
+    max-width: 900px;
+    height: auto;
     position: relative;
   }
+  
   @media (max-width: 768px){
     #iframe {
       width: 100%;
