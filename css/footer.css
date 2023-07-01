@@ -38,7 +38,7 @@
   .footer-links a {
     color: #fff;
     text-decoration: none;
-    transition: background-color 0.45s, border-right 0.45s, padding 1.0s;
+    transition: background-color 0.45s, border-left 0.45s, border-top 0.45s, border-bottom 0.45s, border-right 0.45s, padding 1.0s;
   }
   
   .footer-message {

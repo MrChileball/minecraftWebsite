@@ -116,13 +116,16 @@ body {
 .navbar-item {
   padding: 12px 22px;
   margin: 0 8px;
-  transition: background-color 0.45s, border-color 0.45s;
+  transition: background-color 0.45s, border-left 0.45s, border-top 0.45s, border-bottom 0.45s, border-right 0.45s, padding 1.0s;
 }
 
 .navbar-item:hover {
   margin: 0 8px;
   background-color: #33865d;
-  border-color: #1b5538;
+  border-left: 5px solid #40b97d;
+  border-top: 5px solid #1b5538;
+  border-right: 5px solid #0a2c1b;
+  border-bottom: 5px solid #042414;
 }
 
 #video-background {
