@@ -125,6 +125,21 @@ body {
   border-color: #1b5538;
 }
 
+#video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+#video-background video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 
 .navbar-item a {
   color: #fff;
@@ -133,7 +148,6 @@ body {
 
 .background-header{
   background-size: cover;
-  padding-bottom:42.56vh;
 }
 
 
