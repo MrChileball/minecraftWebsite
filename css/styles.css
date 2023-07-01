@@ -237,8 +237,8 @@ body {
   }
 
   #description-1 {
-    margin-top: 1vh;
-    margin-bottom: 2vh;
+    margin-top: 3vh;
+    margin-bottom: 4vh;
     background-color: var(--bg-dark);
     padding: 2vh 2vh 2vh 2vh;
     border-radius: 1vh;
@@ -377,6 +377,9 @@ body {
     margin: 1px;
     background-color: var(--bg-dark);
   }
+  .bentogrid-wrapper h2 {
+    text-align: center;
+  }
   @media (max-width: 767px) {
     .bentogrid-item {
       flex-basis: 100%;
@@ -418,14 +421,14 @@ body {
 
   .container-iframe{
     max-width: 800px;
-  margin: 0 auto;
+   margin: 0 auto;
   position: relative;
   width: 100%;
   height: auto;
   }
   .responsive-iframe {
     position: relative;
-    padding-bottom: 75%; /* Ajusta el valor según tus necesidades */
+    padding-bottom: 56.658%; /* Ajusta el valor según tus necesidades */
     height: 0;
     overflow: hidden;
   }
