@@ -108,6 +108,7 @@ body {
 
 .navbar-list {
   display: flex;
+  gap: 5px;
   list-style: none;
   padding: 0;
 }
@@ -115,17 +116,15 @@ body {
 
 .navbar-item {
   padding: 12px 22px;
-  margin: 0 8px;
   transition: background-color 0.45s, border-left 0.45s, border-top 0.45s, border-bottom 0.45s, border-right 0.45s, padding 1.0s;
 }
 
 .navbar-item:hover {
-  margin: 0 8px;
   background-color: #33865d;
-  border-left: 5px solid #40b97d;
-  border-top: 5px solid #1b5538;
-  border-right: 5px solid #0a2c1b;
-  border-bottom: 5px solid #042414;
+  border-left: 3px solid #40b97d;
+  border-top: 3px solid #1b5538;
+  border-right: 3px solid #0a2c1b;
+  border-bottom: 3px solid #042414;
 }
 
 #video-background {
