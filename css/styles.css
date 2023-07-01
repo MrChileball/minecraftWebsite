@@ -285,7 +285,6 @@ body {
   .hover-option {
     text-decoration: none;
   }
-
   .hover-option:hover{
     color: #33865d;
     
@@ -303,20 +302,17 @@ body {
     max-height: auto;
     
   }
-  
   .grid-item {
     display: flex;
     background-color: orange;
     width: calc(100% - 10px);
     margin: 5px
   }
-  
   @media (min-width: 720px) {
     .grid-item {
       width: calc(33.333% - 10px);
     }
   }
-  
   @media (min-width: 1020px) {
     .grid-item {
       width: calc(25% - 10px);
@@ -330,7 +326,6 @@ body {
     align-items: center;
     gap: 20px;
   }
-  
   .bentogrid-item {
     flex: 1 0 300px;
     background-color: var(--bg-mid);
@@ -339,7 +334,6 @@ body {
     text-align: center;
     transition: all 0.3s ease;
   }
-  
   .bentogrid-item:hover {
     background-color: #33865d;
     border-radius: 10px;
@@ -355,17 +349,14 @@ body {
     height: auto;
     border-radius: 5px;
   }
-  
   .bentogrid-item h3 {
     margin-top: 10px;
     font-size: 20px;
   }
-  
   .bentogrid-item p {
     margin-top: 5px;
     font-size: 16px;
   }
-  
   .wide {
     flex-basis: 640px;
     order: 1;
@@ -375,8 +366,6 @@ body {
     flex-grow: 2;
     order: 4;
   }
-
-  
   .irregular {
     flex-basis: 300px;
     order: 2;
@@ -391,22 +380,18 @@ body {
     .bentogrid-item {
       flex-basis: 100%;
     }
-  
     .wide {
       order: initial;
     }
-  
     .tall {
       flex-grow: 1;
       order: initial;
     }
   }
-  
   @media (min-width: 768px) {
     .bentogrid {
       flex-direction: row;
     }
-  
     .bentogrid-item {
       flex-basis: 33.33%;
     }
@@ -417,7 +402,6 @@ body {
       flex-basis: 25%;
     }
   }
-
   #gif-container {
     width: 300px; /* Ajusta el ancho según tus necesidades */
     height: 300px; /* Ajusta la altura según tus necesidades */
@@ -438,14 +422,12 @@ body {
   width: 100%;
   height: auto;
   }
-  
   .responsive-iframe {
     position: relative;
     padding-bottom: 75%; /* Ajusta el valor según tus necesidades */
     height: 0;
     overflow: hidden;
   }
-  
   .responsive-iframe iframe {
     position: absolute;
     top: 0;
@@ -453,4 +435,25 @@ body {
     width: 100%;
     height: 100%;
 
+  }
+  .arrow-down {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateY(170px);
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #fff;
+    cursor: pointer;
+    animation: arrow-animation 1s infinite alternate;
+  }
+  @keyframes arrow-animation {
+    0% {
+      transform: translateX(-50%) translateY(150px);
+    }
+    100% {
+      transform: translateX(-50%) translateY(170px);
+    }
   }
