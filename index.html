@@ -8,6 +8,8 @@
   <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
   <script src="/javascript/pass-generator.js"></script>
   <script src="/javascript/playNextGif.js"></script>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -102,7 +104,24 @@
     </div>
   </div>
 </section>
-
+<section>
+  <div id="content" class="container-sm"></div>
+  <!-- highlight.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/highlight.min.js"></script>
+  <!-- marked.js -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+    const architecture = "/blog/architecture.md"
+    async function run() {
+      let file = await fetch(docs)
+      let text = await file.text()
+      document.getElementById('content').innerHTML =
+        marked.parse(text);
+      hljs.highlightAll();
+    }
+    run()
+  </script>
+</section>
 <body>
   <div class="bentogrid-wrapper">
     <h2>News</h2>
